@@ -1,0 +1,56 @@
+[gd_scene load_steps=3 format=3 uid="uid://rqa2tcdhqji8"]
+
+[ext_resource type="Texture2D" uid="uid://d34euc0nmkr7g" path="res://sprites/dot.png" id="1_5484t"]
+[ext_resource type="Script" uid="uid://b83cjp8kje8l7" path="res://dot.gd" id="2_pno10"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="dot1" type="Sprite2D" parent="."]
+position = Vector2(25, 65)
+texture = ExtResource("1_5484t")
+script = ExtResource("2_pno10")
+
+[node name="dot2" type="Sprite2D" parent="."]
+position = Vector2(25, 114)
+texture = ExtResource("1_5484t")
+script = ExtResource("2_pno10")
+
+[node name="dot3" type="Sprite2D" parent="."]
+position = Vector2(25, 164)
+texture = ExtResource("1_5484t")
+script = ExtResource("2_pno10")
+
+[node name="dot4" type="Sprite2D" parent="."]
+position = Vector2(25, 215)
+texture = ExtResource("1_5484t")
+script = ExtResource("2_pno10")
+
+[node name="dot5" type="Sprite2D" parent="."]
+position = Vector2(25, 267)
+texture = ExtResource("1_5484t")
+script = ExtResource("2_pno10")
+
+[node name="dot6" type="Sprite2D" parent="."]
+position = Vector2(25, 318)
+texture = ExtResource("1_5484t")
+script = ExtResource("2_pno10")
+
+[node name="dot7" type="Sprite2D" parent="."]
+position = Vector2(25, 368)
+texture = ExtResource("1_5484t")
+script = ExtResource("2_pno10")
+
+[node name="dot8" type="Sprite2D" parent="."]
+position = Vector2(25, 419)
+texture = ExtResource("1_5484t")
+script = ExtResource("2_pno10")
+
+[node name="dot9" type="Sprite2D" parent="."]
+position = Vector2(25, 469)
+texture = ExtResource("1_5484t")
+script = ExtResource("2_pno10")
+
+[node name="dot10" type="Sprite2D" parent="."]
+position = Vector2(25, 519)
+texture = ExtResource("1_5484t")
+script = ExtResource("2_pno10")
